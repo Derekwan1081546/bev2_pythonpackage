@@ -46,7 +46,11 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
     def __init__(self):
         """Constructor"""
         # Default Base url
-        self.host = "https://virtserver.swaggerhub.com/ug61837361636/bev2/1.0.0"
+        # self.host = "https://virtserver.swaggerhub.com/ug61837361636/bev2/1.0.0"
+
+        # Default Base url
+        self.host = "http://bev2loadbalancer-61644974.us-east-1.elb.amazonaws.com"
+
         # Temp file folder for downloading files
         self.temp_folder_path = None
 
