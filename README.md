@@ -280,8 +280,4 @@ Class | Method | HTTP request | Description
 
 
 ## Author
-
-
-#   b e v 2 _ p y t h o n p a c k a g e 
- 
- 
+    bev2_pythonpackage
